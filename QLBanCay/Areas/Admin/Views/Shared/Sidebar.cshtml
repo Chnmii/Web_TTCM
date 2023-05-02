@@ -1,0 +1,64 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class="deznav">
+	<div class="deznav-scroll">
+		<ul class="metismenu" id="menu">
+			<li>
+				<a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+					<i class="flaticon-381-networking"></i>
+					<span class="nav-text">Quản lý nhân viên</span>
+				</a>
+				<ul aria-expanded="false">
+					<li><a asp-area="admin" asp-controller="DSNhanVien" asp-action="DanhsachNV">Danh sách nhân viên</a></li>
+
+				</ul>
+			</li>
+			<li>
+				<a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+					<i class="flaticon-381-television"></i>
+					<span class="nav-text">Quản lý khách hàng</span>
+				</a>
+				<ul aria-expanded="false">
+					<li><a asp-area="admin" asp-controller="DSKhachHang" asp-action="DanhsachKH">Danh sách khách hàng</a></li>
+
+				</ul>
+			</li>
+			<li>
+				<a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+					<i class="flaticon-381-controls-3"></i>
+					<span class="nav-text">Danh mục cây</span>
+				</a>
+				<ul aria-expanded="false">
+					<li> <a asp-area="admin" asp-controller="DSCay" asp-action="DanhMucCay">Danh sách cây</a></li>
+					<li><a asp-area="admin" asp-controller="LoaiCay" asp-action="LoaiCay">Loại cây</a></li>
+					<li><a asp-area="admin" asp-controller="NhaCungCap" asp-action="NhaCungCap">Nhà cung cấp</a></li>
+					<li><a asp-area="admin" asp-controller="NuocSX" asp-action="NuocSanXuat">Nước sản xuất</a></li>
+
+				</ul>
+			</li>
+			<li>
+				<a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+					<i class="flaticon-381-notepad"></i>
+					<span class="nav-text">Quản lý hoá đơn</span>
+				</a>
+				<ul aria-expanded="false">
+					<li><a asp-area="admin" asp-controller="HoaDon" asp-action="DanhsachHD">Danh sách hoá đơn</a></li>
+					<li><a asp-area="admin" asp-controller="ChiTietHD" asp-action="ChiTietHD">Chi tiết hoá đơn</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+					<i class="flaticon-381-layer-1"></i>
+					<span class="nav-text">Pages</span>
+				</a>
+				<ul aria-expanded="false">
+					<li><a asp-controller="Access" asp-action="Register">Register</a></li>
+					<li><a asp-controller="Access" asp-action="Logout">Logout</a></li>
+
+				</ul>
+			</li>
+		</ul>
+
+
+	</div>
+</div>

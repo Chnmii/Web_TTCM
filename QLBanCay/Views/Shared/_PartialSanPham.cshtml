@@ -1,0 +1,26 @@
+﻿@model DanhMucCay
+<div class="col-12 col-sm-6 col-lg-3">
+    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+        <!-- Product Image -->
+        <div width="200" height="300" class="product-img">
+            <a asp-controller="Home" asp-action="ProductDetail" asp-route-masp="@Model.MaCay">
+                <img  src="@Url.Content("../LayoutAdmin" + Model.AnhCay)" alt=""></a>
+            <!-- Product Tag -->
+            <div class="product-tag">
+                <a href="#">Hot</a>
+            </div>
+            <div class="product-meta d-flex">
+                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                <a asp-action="AddToCart" asp-controller="Shopcart" asp-route-id="@Model.MaCay" class="add-to-cart-btn">Add to cart</a>
+                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+            </div>
+        </div>
+        <!-- Product Info -->
+        <div class="product-info mt-15 text-center">
+            <a asp-controller="Home" asp-action="ProductDetail" asp-route-masp="@Model.MaCay">
+                <p>@Model.TenCay</p>
+            </a>
+            <h6>@Model.MoTa</h6>
+        </div>
+    </div>
+</div>

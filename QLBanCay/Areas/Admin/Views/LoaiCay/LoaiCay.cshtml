@@ -1,0 +1,92 @@
+﻿@using QLBanCay.Models;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<LoaiCay>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "LoaiCay";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-body" style="min-height: 960px">
+    <div class="container-fluid">
+        <div class="row page-titles mx-0">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4>Hi, Welcome Back!</h4>
+                </div>
+            </div>
+
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Danh mục cây</a></li>
+                    <li class="breadcrumb-item active"><a asp-area="admin" asp-controller="LoaiCay" asp-action="LoaiCay">Loại cây</a></li>
+                </ol>
+            </div>
+
+            <!-- row -->
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Loại cây</h4>
+                            <a class="btn btn-primary float-right" asp-action="ThemLoaiCay">Thêm mới</a>
+
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div id="example_wrapper" class="dataTables_wrapper">
+                                    <p>@TempData["Message"]</p>
+                                    <table class="table header-border" style="min-width: 500px;">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Mã loại
+                                                </th>
+                                                <th>
+                                                    Tên loại
+                                                </th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.MaLoai)
+                                                    </td>
+                                                    <td>
+                                                        @Html.DisplayFor(modelItem => item.TenLoai)
+                                                    </td>
+                                                    <td>
+                                                        <div class="dropdown">
+                                                            <button type="button" class="btn btn-success light sharp" data-toggle="dropdown">
+                                                                <svg width="20px" height="20px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
+                                                            </button>
+                                                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" asp-action="SuaLoaiCay" asp-route-malc="@item.MaLoai">Edit</a>
+                                                                <a class="dropdown-item" asp-action="XoaLoaiCay" asp-route-malc="@item.MaLoai">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                    @Html.PagedListPager(Model, page=> Url.Action("LoaiCay", new {page=page}), new
+                                    X.PagedList.Web.Common.PagedListRenderOptions(){
+                                    LiElementClasses = new List<String> {"page-item"},
+                                    PageClasses = new List<String> {"page-link"}
+                                    })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

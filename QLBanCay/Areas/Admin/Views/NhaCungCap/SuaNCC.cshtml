@@ -1,0 +1,77 @@
+﻿@model QLBanCay.Models.NhaCungCap
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "SuaNCC";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-body" style="min-height: 960px">
+    <div class="container-fluid">
+        <div class="row page-titles mx-0">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4>Hi, Welcome Back!</h4>
+                </div>
+            </div>
+
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Danh mục cây</a></li>
+                    <li class="breadcrumb-item active"><a asp-area="admin" asp-controller="NhaCungCap" asp-action="Nhacungcap">Nhà cung cấp</a></li>
+                    <li class="breadcrumb-item active"><a asp-action="SuaNCC">Sửa nhà cung cấp</a></li>
+                </ol>
+            </div>
+
+            <!-- row -->
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Sửa nhà cung cấp</h4>
+
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div id="example_wrapper" class="dataTables_wrapper">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <form asp-action="SuaNCC">
+                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                                <input type="hidden" asp-for="MaNcc" />
+                                                <div class="form-group">
+                                                    <label asp-for="TenNcc" class="control-label"></label>
+                                                    <input asp-for="TenNcc" class="form-control" />
+                                                    <span asp-validation-for="TenNcc" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="DiaChi" class="control-label"></label>
+                                                    <input asp-for="DiaChi" class="form-control" />
+                                                    <span asp-validation-for="DiaChi" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="SoDienThoai" class="control-label"></label>
+                                                    <input asp-for="SoDienThoai" class="form-control" />
+                                                    <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="submit" value="Save" class="btn btn-primary" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <a asp-action="Nhacungcap">Back to List</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

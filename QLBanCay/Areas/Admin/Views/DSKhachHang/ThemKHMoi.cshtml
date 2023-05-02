@@ -1,0 +1,90 @@
+﻿@model QLBanCay.Models.KhachHang
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "ThemKHMoi";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-body" style="min-height: 960px">
+    <div class="container-fluid">
+        <div class="row page-titles mx-0">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4>Hi, Welcome Back!</h4>
+                </div>
+            </div>
+
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Quản lý khách hàng</a></li>
+                    <li class="breadcrumb-item active"><a asp-area="admin" asp-controller="DSKhachHang" asp-action="DanhsachKH">Danh sách khách hàng</a></li>
+                    <li class="breadcrumb-item active"><a asp-action="ThemKHMoi">Thêm khách hàng mới</a></li>
+                </ol>
+            </div>
+
+            <!-- row -->
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Thêm khách hàng mới</h4>
+
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div id="example_wrapper" class="dataTables_wrapper">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <form method="post" asp-action="ThemKHMoi">
+                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                                <div class="form-group">
+                                                    <label asp-for="MaKh" class="control-label"></label>
+                                                    <input asp-for="MaKh" class="form-control" />
+                                                    <span asp-validation-for="MaKh" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="TenKh" class="control-label"></label>
+                                                    <input asp-for="TenKh" class="form-control" />
+                                                    <span asp-validation-for="TenKh" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="NgaySinh" class="control-label"></label>
+                                                    <input asp-for="NgaySinh" class="form-control" />
+                                                    <span asp-validation-for="NgaySinh" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="DiaChi" class="control-label"></label>
+                                                    <input asp-for="DiaChi" class="form-control" />
+                                                    <span asp-validation-for="DiaChi" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="SoDienThoai" class="control-label"></label>
+                                                    <input asp-for="SoDienThoai" class="form-control" />
+                                                    <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="UserName" class="control-label"></label>
+                                                    <select asp-for="UserName" class ="form-control" asp-items="ViewBag.UserName"></select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <a asp-action="DanhsachKH">Back to List</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

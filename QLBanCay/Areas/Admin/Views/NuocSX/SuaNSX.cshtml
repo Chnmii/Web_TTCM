@@ -1,0 +1,66 @@
+﻿@model QLBanCay.Models.NuocSanXuat
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "SuaNSX";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-body" style="min-height: 960px">
+    <div class="container-fluid">
+        <div class="row page-titles mx-0">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4>Hi, Welcome Back!</h4>
+                </div>
+            </div>
+
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Danh mục cây</a></li>
+                    <li class="breadcrumb-item active"><a asp-area="admin" asp-controller="NuocSX" asp-action="NuocSanXuat">Nước sản xuất</a></li>
+                    <li class="breadcrumb-item active"><a asp-action="SuaNSX">Sửa nước sản xuất</a></li>
+                </ol>
+            </div>
+
+            <!-- row -->
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Sửa nước sản xuất</h4>
+
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div id="example_wrapper" class="dataTables_wrapper">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <form asp-action="SuaNSX">
+                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                                <input type="hidden" asp-for="MaNuocSx" />
+                                                <div class="form-group">
+                                                    <label asp-for="TenNuocSx" class="control-label"></label>
+                                                    <input asp-for="TenNuocSx" class="form-control" />
+                                                    <span asp-validation-for="TenNuocSx" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="submit" value="Save" class="btn btn-primary" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <a asp-action="NuocSanXuat">Back to List</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

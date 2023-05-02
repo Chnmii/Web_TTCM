@@ -1,0 +1,22 @@
+﻿@model IEnumerable<LoaiCay>
+
+<div class="row">
+    <div class="col-12">
+        <div class="alazea-portfolio-filter">
+            <div class="portfolio-filter">
+                @*<button class="btn active" data-filter="*">All</button>*@
+                <ul>
+
+                    @foreach (var item in Model)
+                    {
+                        @*<li class="btn active" data-filter="*"><a href="">@item.TenLoai</a></li>*@
+                        string loailink = "/home/sanphamtheoloai?maloai=" + item.MaLoai;
+                        <li class="btn active" data-filter="*"><a href="@loailink">@item.TenLoai</a></li>
+                    }
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>

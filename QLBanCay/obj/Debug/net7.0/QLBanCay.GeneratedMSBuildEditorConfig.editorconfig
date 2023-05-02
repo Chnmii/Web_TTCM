@@ -1,0 +1,213 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QLBanCay
+build_property.RootNamespace = QLBanCay
+build_property.ProjectDir = D:\Visual Studio Code\CodeWeb\QLBanCay\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Visual Studio Code\CodeWeb\QLBanCay
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/ChiTietHD/ChiTietHD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhEXENoaVRpZXRIRC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/ChiTietHD/SuaCTHD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhEXFN1YUNUSEQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/ChiTietHD/Themchitiet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hpVGlldEhEXFRoZW1jaGl0aWV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/DSCay/DanhMucCay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRFNDYXlcRGFuaE11Y0NheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/DSCay/SuaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRFNDYXlcU3VhU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/DSCay/ThemCayMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRFNDYXlcVGhlbUNheU1vaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/DSKhachHang/DanhsachKH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRFNLaGFjaEhhbmdcRGFuaHNhY2hLSC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/DSKhachHang/SuaKhachhang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRFNLaGFjaEhhbmdcU3VhS2hhY2hoYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/DSKhachHang/ThemKHMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRFNLaGFjaEhhbmdcVGhlbUtITW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/DSNhanVien/DanhsachNV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRFNOaGFuVmllblxEYW5oc2FjaE5WLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/DSNhanVien/SuaNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRFNOaGFuVmllblxTdWFOaGFuVmllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/DSNhanVien/ThemNVMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRFNOaGFuVmllblxUaGVtTlZNb2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/HoaDon/DanhsachHD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXERhbmhzYWNoSEQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/HoaDon/SuaHD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXFN1YUhELmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/HoaDon/ThemHoaDon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXFRoZW1Ib2FEb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/HomeAdmin/TimKiem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRpbUtpZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/LoaiCay/LoaiCay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUNheVxMb2FpQ2F5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/LoaiCay/SuaLoaiCay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUNheVxTdWFMb2FpQ2F5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/LoaiCay/ThemLoaiCay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haUNheVxUaGVtTG9haUNheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/NhaCungCap/NhaCungCap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhQ3VuZ0NhcFxOaGFDdW5nQ2FwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/NhaCungCap/SuaNCC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhQ3VuZ0NhcFxTdWFOQ0MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/NhaCungCap/ThemNCC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhQ3VuZ0NhcFxUaGVtTkNDLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/NuocSX/NuocSanXuat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTnVvY1NYXE51b2NTYW5YdWF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/NuocSX/SuaNSX.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTnVvY1NYXFN1YU5TWC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/NuocSX/ThemNuocSX.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTnVvY1NYXFRoZW1OdW9jU1guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/Shared/Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/Shared/Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXFNpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Access/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Access/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Home/ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Home/SanPhamTheoLoai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYW5QaGFtVGhlb0xvYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Portfolio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Shared/Components/LoaiCayMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9haUNheU1lbnVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Shared/_LayoutAlazea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBbGF6ZWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Shared/_PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Shared/_PartialHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Shared/_PartialSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXJ0aWFsU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Shopcart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcGNhcnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Visual Studio Code/CodeWeb/QLBanCay/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pkzasyz9b1

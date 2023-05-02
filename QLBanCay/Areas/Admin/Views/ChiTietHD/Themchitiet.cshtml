@@ -1,0 +1,85 @@
+﻿@model QLBanCay.Models.ChiTietHdb
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Themchitiet";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="content-body" style="min-height: 960px">
+    <div class="container-fluid">
+        <div class="row page-titles mx-0">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4>Hi, Welcome Back!</h4>
+                </div>
+            </div>
+
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Quản lý hoá đơn</a></li>
+                    <li class="breadcrumb-item active"><a asp-area="admin" asp-controller="ChiTietHD" asp-action="ChiTietHD">Chi tiết hoá đơn</a></li>
+                    <li class="breadcrumb-item active"><a asp-action="Themchitiet">Thêm chi tiết HD mới</a></li>
+                </ol>
+            </div>
+
+            <!-- row -->
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Thêm chi tiết HD mới</h4>
+
+                        </div>
+
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <div id="example_wrapper" class="dataTables_wrapper">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <form method="post" asp-action="Themchitiet">
+                                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                                <div class="form-group">
+                                                    <label asp-for="MaHdb" class="control-label"></label>
+                                                    <select asp-for="MaHdb" class ="form-control" asp-items="ViewBag.MaHdb"></select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="MaChiTiet" class="control-label"></label>
+                                                    <select asp-for="MaChiTiet" class ="form-control" asp-items="ViewBag.MaChiTiet"></select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="Slban" class="control-label"></label>
+                                                    <input asp-for="Slban" class="form-control" />
+                                                    <span asp-validation-for="Slban" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="DonGia" class="control-label"></label>
+                                                    <input asp-for="DonGia" class="form-control" />
+                                                    <span asp-validation-for="DonGia" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label asp-for="GiamGia" class="control-label"></label>
+                                                    <input asp-for="GiamGia" class="form-control" />
+                                                    <span asp-validation-for="GiamGia" class="text-danger"></span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="submit" value="Create" class="btn btn-primary" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <a asp-action="ChiTietHD">Back to List</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
